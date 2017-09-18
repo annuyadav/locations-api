@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/annuyadav/GeoLocation.git
-  revision: edebcbaef3045c006d9861ab50c5d17b7f2205fc
+  revision: 0df0eedb0fc29cff87586a5316597efe599d2357
   specs:
     geo_location (0.1.0)
 
@@ -96,6 +96,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
+    pg (0.21.0)
     rack (2.0.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -195,6 +196,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   mysql2
+  pg
   rails (= 5.0.3)
   rspec-rails (~> 3.5)
   sass-rails (~> 5.0)

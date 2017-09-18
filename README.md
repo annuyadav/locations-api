@@ -21,6 +21,8 @@ gem install bundler
 bundle install
 ```
 
+Copy config/database.yml.example to config/database.yml for database config
+
 Now copy the migration and edit it to add columns if required and create and migrate database
 ```
 rails generate geo_location:geodata:geo_location_data

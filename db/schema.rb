@@ -12,7 +12,10 @@
 
 ActiveRecord::Schema.define(version: 20170918103918) do
 
-  create_table "locations", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "locations", force: :cascade do |t|
     t.string  "ip_address",                             null: false
     t.string  "country_code"
     t.string  "country",                                null: false
